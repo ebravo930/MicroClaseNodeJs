@@ -1,0 +1,111 @@
+{
+	"info": {
+		"_postman_id": "16e862b8-67a3-41be-b34c-34313d0ca18c",
+		"name": "Clases Inacap",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "1390824"
+	},
+	"item": [
+		{
+			"name": "MicroClase",
+			"item": [
+				{
+					"name": "List",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/items",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"items"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "POST",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"name\": \"Item 4\",\n    \"description\": \"Descripción Item 4 Prueba\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3000/items",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"items"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "PUT",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"name\": \"Item 3 - Actualizado\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3000/items/65a446286ff8b7a319ebe932",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"items",
+								"65a446286ff8b7a319ebe932"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "DEL",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/items/65a446326ff8b7a319ebe934",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"items",
+								"65a446326ff8b7a319ebe934"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}

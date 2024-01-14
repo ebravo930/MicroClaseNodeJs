@@ -1,6 +1,9 @@
 ## MicroClase 
 Aplicacion NodeJs con MongoDB
 
+# Postman
+Se agrego un archivo "Clases Inacap.postman_collection.json" para que puedan importarlo y hacer uso del aplicativo, viene con ejemplos
+
 # Comandos para iniciar proyecto
 Ejecutar tu aplicación:
     node app.js
